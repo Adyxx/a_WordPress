@@ -1,0 +1,34 @@
+// リスト
+.editor-styles-wrapper {
+
+    ul[data-type="core/list"] {
+        list-style: disc;
+    }
+
+    ol[data-type="core/list"] {
+        list-style: decimal;
+    }
+
+    [data-type="core/list"] {
+        padding-left: 1.5em !important; //全幅グループブロック内で 0 にされるのを防ぐ
+        white-space: normal;
+
+        li {
+            // li {
+            margin: .1em 0;
+            // margin-left: 0;
+            // }
+        }
+
+        ol {
+            margin-left: 0;
+            padding-left: 1.5em;
+        }
+
+        ul {
+            margin-left: 0;
+            padding-left: 1.5em;
+            list-style: circle;
+        }
+    }
+}

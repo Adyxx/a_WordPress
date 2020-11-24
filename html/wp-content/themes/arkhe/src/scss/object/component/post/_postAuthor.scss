@@ -1,0 +1,21 @@
+// 著者部分
+.c-postAuthor {
+    color: inherit;
+    text-decoration: none;
+}
+
+.c-postAuthor__figure {
+    width: 16px;
+    height: 16px;
+    margin-right: .25rem;
+    margin-left: 1px;
+    overflow: hidden;
+    border-radius: 50%;
+
+    .avatar {
+
+        @extend %objFitCover;
+    }
+}
+
+// .c-postAuthor__name {}
